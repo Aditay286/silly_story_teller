@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+div
+{
+margin-bottom:30px;
+}
+
+.name
+{
+display:inline;
+height:20px;
+}
+
+button
+{
+display:block;
+}
+
+.story
+{
+background-color:yellow;
+}
+
+.lab
+{
+font-weight:bold;
+font-size:20px;
+}
+
+.name:hover
+{
+border-color:blue;
+}
+.story
+{
+width:300px;
+font-size:20px;
+visibility:visible;
+
+}
+
+</style>
+
+</head>
+
+<body>
+<div>
+<p class="lab">Enter custome name:<input class="name" id="customname" type="text">
+</p>
+</div>
+<div>
+<label class="lab">US</label>
+<input type="radio" id="us" value="us" name="country" checked>
+<label class="lab">UK</label>
+<input type="radio" id="uk" value="uk" name="country">
+</div>
+<div>
+<button class="randomize">Generate random story</button>
+</div>
+<div>
+<p class="story" id="storytext"></p>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
+
+
+
